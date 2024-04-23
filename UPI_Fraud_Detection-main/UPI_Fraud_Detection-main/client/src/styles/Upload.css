@@ -1,0 +1,77 @@
+/* Upload.css */
+
+/* Style for the container */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the file input */
+.upload-input {
+  margin-bottom: 10px;
+  display: none; /* Hide the input, but style its label */
+}
+
+/* Style for the label of the file input */
+.upload-label {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: inline-block;
+}
+
+/* Style for button hover effect */
+.upload-label:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the table */
+.upload-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+/* Style for table headers */
+.upload-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+  font-weight: bold;
+}
+
+/* Style for table cells */
+.upload-table td {
+  padding: 8px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Style for the "Click to Train" button */
+.train-button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for button hover effect */
+.train-button:hover {
+  background-color: #0056b3;
+}
